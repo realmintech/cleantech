@@ -8,13 +8,12 @@ const Sidebar = ({ toggleTheme, isDarkMode }) => {
         Cleantech
       </h2>
 
-      <nav className="flex flex-col space-y-4">
-        <NavItem href="/" icon={<FiHome />} label="Home" />
+      <nav className="flex flex-col mt-2 space-y-6">
+        <NavItem href="home" icon={<FiHome />} label="Home" />
         <NavItem href="/analytics" icon={<FiBarChart2 />} label="Analytics" />
-        <NavItem href="/settings" icon={<FiSettings />} label="Settings" />
+        <NavItem href="/profile" icon={<FiSettings />} label="Profile" />
       </nav>
 
-      {/* Theme Toggle Button */}
       <button
         onClick={toggleTheme}
         className="mt-auto flex items-center gap-3 p-3 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-all duration-300 shadow-lg"
