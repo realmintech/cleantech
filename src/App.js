@@ -11,13 +11,13 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Dashboard />}>
+            <Route index element={<Analytics />} />
             <Route path="analytics" element={<Analytics />} />
             <Route path="sidebar" element={<Sidebar />} />
             <Route path="settings" element={<Settings />} />
           </Route>
         </Routes>
       </BrowserRouter>
-      <Dashboard />
     </>
   );
 }
