@@ -1,5 +1,5 @@
 import React from "react";
-import { FiHome, FiBarChart2, FiSettings, FiSun, FiMoon } from "react-icons/fi";
+import { FiHome, FiBarChart2, FiSun, FiMoon, FiArchive } from "react-icons/fi";
 
 const Sidebar = ({ toggleTheme, isDarkMode }) => {
   return (
@@ -11,7 +11,7 @@ const Sidebar = ({ toggleTheme, isDarkMode }) => {
       <nav className="flex flex-col mt-2 space-y-6">
         <NavItem href="home" icon={<FiHome />} label="Home" />
         <NavItem href="/analytics" icon={<FiBarChart2 />} label="Analytics" />
-        <NavItem href="/profile" icon={<FiSettings />} label="Profile" />
+        <NavItem href="/profile" icon={<FiArchive />} label="Profile" />
       </nav>
 
       <button
