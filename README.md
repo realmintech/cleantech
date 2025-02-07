@@ -36,7 +36,7 @@ Features
 - Filtering Options – Users can filter data dynamically to view specific insights.
 - Dark/Light Mode – A toggle switch for switching between dark and light themes, improving accessibility and usability.
 
-# Assumptions
+## Assumptions
 -Users interact with the dashboard to track sustainability metrics.
 - Data is fetched via simulated API calls.
 - Carbon emission is much than the other metrics throughout the year which brings about the reduce in air quality index
