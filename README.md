@@ -37,11 +37,11 @@ Features
 - Dark/Light Mode – A toggle switch for switching between dark and light themes, improving accessibility and usability.
 
 ## Assumptions
--Users interact with the dashboard to track sustainability metrics.
+Users interact with the dashboard to track sustainability metrics.
 - Data is fetched via simulated API calls.
 - Carbon emission is much than the other metrics throughout the year which brings about the reduce in air quality index
 ## Technology Stack
-- The project is built with the following technologies:
+The project is built with the following technologies:
 - React.js – For building interactive UI components.
 - Tailwind CSS – For modern, flexible, and responsive styling.
 - Bootstrap5 - For responsive layout 
