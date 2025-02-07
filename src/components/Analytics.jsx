@@ -142,7 +142,11 @@ const Analytics = () => {
             className="ml-2 p-2 border rounded shadow-md"
           >
             {mockData.monthlyMetrics.map((entry) => (
-              <option key={entry.month} value={entry.month}>
+              <option
+                key={entry.month}
+                value={entry.month}
+                className="text-[#046861] dark:text-[#046861]"
+              >
                 {entry.month}
               </option>
             ))}
@@ -157,7 +161,11 @@ const Analytics = () => {
             className="ml-2 p-2 border rounded shadow-md"
           >
             {mockData.monthlyMetrics.map((entry) => (
-              <option key={entry.month} value={entry.month}>
+              <option
+                key={entry.month}
+                value={entry.month}
+                className="text-[#046861] dark:text-[#046861]"
+              >
                 {entry.month}
               </option>
             ))}
@@ -171,10 +179,27 @@ const Analytics = () => {
             onChange={(e) => setSelectedMetric(e.target.value)}
             className="ml-2 p-2 border rounded shadow-md"
           >
-            <option value="none">None (Show All)</option>
-            <option value="carbonEmissions">Carbon Emissions</option>
-            <option value="energySavings">Energy Savings</option>
-            <option value="airQualityIndex">Air Quality Index</option>
+            <option value="none" className="text-[#046861] dark:text-[#046861]">
+              None (Show All)
+            </option>
+            <option
+              value="carbonEmissions"
+              className="text-[#046861] dark:text-[#046861]"
+            >
+              Carbon Emissions
+            </option>
+            <option
+              value="energySavings"
+              className="text-[#046861] dark:text-[#046861]"
+            >
+              Energy Savings
+            </option>
+            <option
+              value="airQualityIndex"
+              className="text-[#046861] dark:text-[#046861]"
+            >
+              Air Quality Index
+            </option>
           </select>
         </label>
       </div>
