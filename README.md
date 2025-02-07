@@ -57,6 +57,7 @@ Features
 - The project is built with the following technologies:
 - React.js – For building interactive UI components.
 - Tailwind CSS – For modern, flexible, and responsive styling.
+- Bootstrap5 - For responsive layout 
 - Chart.js – For data visualization with interactive charts.
 
 ## Contributing
