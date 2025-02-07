@@ -56,7 +56,7 @@ const Home = () => {
         </button>
         <button
           onClick={() => navigate("/profile")}
-          className="px-6 py-3 bg-[#046861] text-white rounded-lg shadow-md hover:bg-[#4ECDC4] transition"
+          className="px-6 py-3 bg-[#046861] text-white rounded-lg shadow-md hover:bg-teal-600 transition"
         >
           Profile
         </button>
