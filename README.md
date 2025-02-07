@@ -32,8 +32,8 @@ Ensure you have the following installed:
 3. Start the development server:
 
 ```bash
-npm run dev
-The app will be available at http://localhost:3000.
+npm run start
+The app will be available at [npm](http://localhost:3000/).
 ```
 
 ## Design Overview
