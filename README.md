@@ -27,20 +27,25 @@ Ensure you have the following installed:
 
 npm run dev
 The app will be available at http://localhost:3000.
-# Design Overview
-The dashboard features:
+## Design Overview
+The Cleantech dashboard is built to provide seamless data visualization and user experience.
 
-A sidebar that blends seamlessly with the analytics theme.
-Charts (Pie & Bar) with modern, vibrant colors for clear data visualization.
-A dark mode toggle for a better user experience.
-Assumptions
+Features
+ Sidebar Navigation – A well-structured sidebar that enhances accessibility.
+ Dynamic Charts – Pie & Bar charts displaying environmental metrics in a visually engaging way.
+ Filtering Options – Users can filter data dynamically to view specific insights.
+Dark/Light Mode – A toggle switch for switching between dark and light themes, improving accessibility and usability.
+
+# Assumptions
 Users interact with the dashboard to track sustainability metrics.
 Data is fetched via simulated API calls.
+Carbon emission is much than the other metrics throughout the year which brings about the reduce in air quality index
 ## Technology Stack
-Next.js – For server-side rendering & optimized performance.
-React.js – To create interactive UI components.
-Tailwind CSS – For modern and responsive styling.
-Chart.js – For visually appealing analytics charts.
+The project is built with the following technologies:
+React.js – For building interactive UI components.
+Tailwind CSS – For modern, flexible, and responsive styling.
+Chart.js – For data visualization with interactive charts.
+
 ## Contributing
 Fork the repository.
 Create a new branch: git checkout -b feature-branch.
@@ -49,5 +54,5 @@ Push the branch: git push origin feature-branch.
 Open a Pull Request.
 ## License
 This project is licensed under the MIT License.
-Made with 💚 by Mariam
+- Made with 💚 by Mariam
 This structure follows the best practices for GitHub README files. Let me know if you need any modifications!
