@@ -25,8 +25,8 @@ Ensure you have the following installed:
    npm install
 3. Start the development server:
 
-npm run dev
-The app will be available at http://localhost:3000.
+- npm run dev
+- The app will be available at http://localhost:3000.
 ## Design Overview
 The Cleantech dashboard is built to provide seamless data visualization and user experience.
 
