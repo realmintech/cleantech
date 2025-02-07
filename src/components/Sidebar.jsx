@@ -8,13 +8,12 @@ const Sidebar = ({ toggleTheme, isDarkMode }) => {
         Cleantech
       </h2>
 
-      <nav className="flex flex-col mt-2 space-y-6">
+      <nav className="flex flex-col">
         <NavItem href="home" icon={<FiHome />} label="Home" />
-        <NavItem href="/analytics" icon={<FiBarChart2 />} label="Analytics" />
+        <NavItem href="/analytics" icon={<FiBarChart2 />} label="Analytics"/>
         <NavItem href="/profile" icon={<FiArchive />} label="Profile" />
       </nav>
-
-      <button
+      <button 
         onClick={toggleTheme}
         className="mt-auto flex items-center gap-3 p-3 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-all duration-300 shadow-lg backdrop-blur-md"
       >
@@ -35,7 +34,7 @@ const NavItem = ({ href, icon, label }) => {
   return (
     <a
       href={href}
-      className="flex items-center gap-5 p-4 rounded-xl transition-all duration-300 bg-white/10 text-white shadow-lg hover:bg-teal-500 hover:scale-110 dark:hover:bg-teal-700"
+      className="flex items-center gap-4 my-2 p-4 rounded-xl transition-all duration-300 bg-white/10 text-white shadow-lg hover:bg-teal-500 hover:scale-110 dark:hover:bg-teal-700"
     >
       <span className="text-2xl">{icon}</span>
       <span className="text-lg font-semibold">{label}</span>

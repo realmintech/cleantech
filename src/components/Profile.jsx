@@ -5,16 +5,16 @@ const Profile = () => {
   return (
     <div className="p-6 flex flex-col items-center justify-center text-black text-center">
       <div className="max-w-3xl w-full bg-white dark:bg-gray-800  p-8">
-        <h1 className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">
+        <h1 className="text-3xl font-bold  text-[#046861] dark:text-[#046861]  mb-2">
           Cleantech Solutions
         </h1>
-        <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        <p className="text-lg text-gray-800 dark:text-gray-600 mb-4">
           Innovating for a sustainable future.
         </p>
         <div className="space-y-4">
           <div className="flex justify-center gap-6">
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300">
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-600">
                 Location
               </h3>
               <p className="text-gray-600 dark:text-gray-400">
@@ -22,13 +22,13 @@ const Profile = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300">
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-600">
                 Established
               </h3>
               <p className="text-gray-600 dark:text-gray-400">2015</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300">
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-600">
                 Employees
               </h3>
               <p className="text-gray-600 dark:text-gray-400">
@@ -38,10 +38,10 @@ const Profile = () => {
           </div>
 
           <div className="mt-6">
-            <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300">
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-600">
               Our Mission
             </h3>
-            <p className="text-gray-600 dark:text-gray-400">
+            <p className="text-gray-800 dark:text-gray-600">
               Cleantech Solutions is committed to advancing environmental
               sustainability through cutting-edge technology and innovative
               solutions. We aim to empower businesses to reduce their carbon
