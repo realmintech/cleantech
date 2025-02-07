@@ -3,7 +3,7 @@ import { FiHome, FiBarChart2, FiSettings, FiSun, FiMoon } from "react-icons/fi";
 
 const Sidebar = ({ toggleTheme, isDarkMode }) => {
   return (
-    <div className="h-screen w-72 text-white p-6 flex flex-col border-r border-white/10 bg-gradient-to-b from-green-600 to-green-800 shadow-2xl backdrop-blur-xl fixed top-0 left-0 dark:bg-green-900 dark:from-green-800 dark:to-green-950">
+    <div className="h-screen w-72 text-white p-6 flex flex-col border-r border-white/10 bg-gradient-to-b from-teal-600 to-teal-900 shadow-2xl backdrop-blur-xl fixed top-0 left-0 dark:bg-teal-950 dark:from-teal-800 dark:to-teal-950">
       <h2 className="text-3xl font-extrabold mb-10 text-center tracking-wider">
         Cleantech
       </h2>
@@ -16,12 +16,12 @@ const Sidebar = ({ toggleTheme, isDarkMode }) => {
 
       <button
         onClick={toggleTheme}
-        className="mt-auto flex items-center gap-3 p-3 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-all duration-300 shadow-lg"
+        className="mt-auto flex items-center gap-3 p-3 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-all duration-300 shadow-lg backdrop-blur-md"
       >
         {isDarkMode ? (
-          <FiSun className="text-2xl text-white" />
+          <FiSun className="text-2xl text-yellow-400" />
         ) : (
-          <FiMoon className="text-2xl text-white" />
+          <FiMoon className="text-2xl text-blue-300" />
         )}
         <span className="text-lg font-semibold">
           {isDarkMode ? "Light Mode" : "Dark Mode"}
@@ -35,10 +35,10 @@ const NavItem = ({ href, icon, label }) => {
   return (
     <a
       href={href}
-      className="flex items-center gap-5 p-4 rounded-xl transition-all duration-300 bg-white/10 text-white shadow-md hover:bg-green-500 hover:scale-105 dark:hover:bg-green-700"
+      className="flex items-center gap-5 p-4 rounded-xl transition-all duration-300 bg-white/10 text-white shadow-lg hover:bg-teal-500 hover:scale-110 dark:hover:bg-teal-700"
     >
       <span className="text-2xl">{icon}</span>
-      <span className="text-lg font-medium">{label}</span>
+      <span className="text-lg font-semibold">{label}</span>
     </a>
   );
 };

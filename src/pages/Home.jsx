@@ -19,7 +19,9 @@ const Home = () => {
         <div className="p-4 bg-white dark:bg-gray-800 shadow-md rounded-lg flex items-center gap-4">
           <FiBarChart2 className="text-green-700 dark:text-green-400 text-4xl" />
           <div>
-            <h2 className="text-lg font-semibold text-black">Carbon Emissions</h2>
+            <h2 className="text-lg font-semibold text-black">
+              Carbon Emissions
+            </h2>
             <p className="text-gray-700 dark:text-gray-500">122.4 tons (Jan)</p>
           </div>
         </div>
@@ -35,7 +37,9 @@ const Home = () => {
         <div className="p-4 bg-white dark:bg-gray-800 shadow-md rounded-lg flex items-center gap-4">
           <FiTrendingUp className="text-blue-500 text-4xl" />
           <div>
-            <h2 className="text-lg font-semibold text-black">Air Quality Index</h2>
+            <h2 className="text-lg font-semibold text-black">
+              Air Quality Index
+            </h2>
             <p className="text-gray-700 dark:text-gray-500">45 (Good)</p>
           </div>
         </div>
@@ -44,15 +48,15 @@ const Home = () => {
       <div className="mt-8 flex gap-4">
         <button
           onClick={() => navigate("/analytics")}
-          className="px-6 py-3 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition"
+          className="px-6 py-3 bg-teal-600 text-white rounded-lg shadow-md hover:bg-teal-700 transition"
         >
           View Analytics
         </button>
         <button
-          onClick={() => navigate("/settings")}
-          className="px-6 py-3 bg-gray-600 text-white rounded-lg shadow-md hover:bg-gray-700 transition"
+          onClick={() => navigate("/profile")}
+          className="px-6 py-3 bg-[#046861] text-white rounded-lg shadow-md hover:bg-[#4ECDC4] transition"
         >
-          Settings
+          Profile
         </button>
       </div>
     </div>
