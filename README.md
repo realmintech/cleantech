@@ -55,4 +55,4 @@ Features
 ## License
 This project is licensed under the MIT License.
 - Made with 💚 by Mariam
-This structure follows the best practices for GitHub README files. Let me know if you need any modifications!
+This structure follows the best practices for GitHub README files.
