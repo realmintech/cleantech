@@ -47,14 +47,14 @@ Features
 
 ## Assumptions
 
--Users interact with the dashboard to track sustainability metrics.
+Users interact with the dashboard to track sustainability metrics.
 
 - Data is fetched via simulated API calls.
 - Carbon emission is much than the other metrics throughout the year which brings about the reduce in air quality index
 
 ## Technology Stack
 
-- The project is built with the following technologies:
+The project is built with the following technologies:
 - React.js – For building interactive UI components.
 - Tailwind CSS – For modern, flexible, and responsive styling.
 - Bootstrap5 - For responsive layout 
@@ -72,5 +72,4 @@ Features
 
 This project is licensed under the MIT License.
 
-- Made with 💚 by Mariam
-  This structure follows the best practices for GitHub README files. Let me know if you need any modifications!
+- Made with 💚 by Mariam(RealMinTech)
