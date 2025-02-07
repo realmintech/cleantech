@@ -2,6 +2,8 @@
 
 A modern, interactive, and responsive dashboard for tracking environmental data and providing real-time sustainability insights.
 ![Image](https://github.com/user-attachments/assets/1ffc4269-2fcb-4b2a-a9bf-6b2c1dfeb065)
+![Image](https://github.com/user-attachments/assets/08e292d1-144a-4aa0-b1d8-33d7c4ad023f)
+![Image](https://github.com/user-attachments/assets/5d8c9d8a-4379-4419-83b6-846e1ed63b57)
 ## Getting Started
 
 ### Prerequisites
