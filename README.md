@@ -1,7 +1,7 @@
 # Cleantech Web Application
 
 A modern, interactive, and responsive dashboard for tracking environmental data and providing real-time sustainability insights.
-
+![Image](https://github.com/user-attachments/assets/1ffc4269-2fcb-4b2a-a9bf-6b2c1dfeb065)
 ## Getting Started
 
 ### Prerequisites
