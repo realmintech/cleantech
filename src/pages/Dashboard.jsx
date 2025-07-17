@@ -32,7 +32,7 @@ const Dashboard = () => {
   return (
     <div className={`flex h-screen transition-all duration-300`}>
       <aside
-        className={`fixed inset-y-0 left-0 z-50 w-72 bg-gray-200 dark:bg-gray-800 transition-transform transform ${
+        className={`fixed inset-y-0 left-0 z-50 w-72 transition-transform transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 md:relative md:w-64`}
       >
