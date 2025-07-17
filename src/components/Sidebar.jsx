@@ -3,7 +3,7 @@ import { FiHome, FiBarChart2, FiSun, FiMoon, FiArchive } from "react-icons/fi";
 
 const Sidebar = ({ toggleTheme, isDarkMode }) => {
   return (
-    <div className="h-screen w-72 text-white p-6 flex flex-col border-r border-white/10 bg-gradient-to-b from-teal-600 to-teal-900 shadow-2xl backdrop-blur-xl fixed top-0 left-0 dark:bg-teal-950 dark:from-teal-800 dark:to-teal-950">
+    <div className="h-screen w-72 text-white p-6 flex flex-col border-r border-white/10 bg-gradient-to-b from-teal-800 to-teal-500 shadow-2xl backdrop-blur-xl fixed top-0 left-0 dark:bg-teal-950 dark:from-teal-800 dark:to-teal-950">
       <h2 className="text-3xl font-extrabold mb-10 text-center tracking-wider">
         Cleantech
       </h2>
